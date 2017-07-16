@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	div.wrapper.nextclass
+		p.wow woow, I am here...
+		span#yo Yo!!
+		img.photo(src="photo.jpg" alt=`${name.toUpperCase()}`)
+
+	- upName = name.toUpperCase();
+	h2
+		| hello #{ upName } of age #{age}
+		em how are you...
+
